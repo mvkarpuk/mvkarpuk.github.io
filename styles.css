@@ -1,0 +1,41 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
+    max-width: 720px;
+    margin:auto;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: red;
+}
+nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    padding: 4pt 0pt 4pt 0pt;
+    text-decoration: none;
+    border-style: none none solid none;
+    border-width: 2pt;
+    position: fixed;
+    top: 0;
+    width: 720px;
+    background-color: white;
+}
+nav a{
+    text-decoration: none;
+    padding: 0pt 4pt 0pt 4pt;
+    font-size: 18pt;
+    color: red;
+}
+nav a:after{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: none;
+    color: black;
+}
+/* what a nice comment!
+
+    font-weight: normal;
+*/
