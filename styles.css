@@ -14,7 +14,7 @@ h2{
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 130%;
+    font-size: 125%;
     font-weight: bold;
 
  /*   color: red;*/
@@ -45,6 +45,9 @@ ul.topnav li a.active{color: red;}
     div.nav{
         font-size: 18px;
     }
+    ul.topnav{
+        font-size: 18px;
+    }
 }
 ol.listki li a{color:red;}
 ol.listki li a:visited{color: black;}
@@ -55,7 +58,7 @@ div.nav{
         right: 3%;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom:solid;
-    font-size: 150%;
+    font-size: 125%;
     font-weight: bold;
     padding-top:1%;
     background-color: snow;
