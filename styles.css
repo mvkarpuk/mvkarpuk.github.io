@@ -44,12 +44,12 @@ ul.topnav li a.active{color: red;}
 ol.listki li a{color:red;}
 ol.listki li a:visited{color: black;}
 div.nav{
-    position:fixed;
+/*    position:fixed;
         top: 0;
         left: 3%;
-        right: 3%;
+        right: 3%;*/
     border-bottom:solid;
-    font-size: 15pt;
+    font-size: 125%;
     font-weight: bold;
     padding-top:1%;
     background-color: snow;
