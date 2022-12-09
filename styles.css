@@ -9,46 +9,54 @@ body{
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
-    color: red;
+/*    color: red;*/
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
     font-weight: normal;
-    color: red;
-    padding-left: 3%;
+    text-decoration: underline;
+ /*   color: red;*/
 }
 ul.topnav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style-type: none;
     margin:0;
     text-decoration: none;
-    position:fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-    background-color: papayawhip;
-    font-size: 150%;
-    padding-left:0%;
-    padding-right: 0%;
+/*    background-color: papayawhip;*/
 }
 ul.topnav li{float:left;}
 ul.topnav li a{
     display: block;
-    color: red;
+    color: black;
     text-align: center;
-    padding: 12px 12px;
-    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    text-decoration: underline;
 }
 ul.topnav li.full{display: block;}
 ul.topnav li.short{display: none;}
-
-ul.topnav li a.active{
-    background-color: goldenrod;
-    color: black;
-}
+ul.topnav li a.active{color: red;}
 @media screen and (max-width: 600px) {
 /*    ul.topnav li.right, ul.topnav li {float:none}*/
     ul.topnav li.full{display: none;}
     ul.topnav li.short{display: block;}
+}
+ol.listki li a{color:red;}
+ol.listki li a:visited{color: black;}
+div.nav{
+    position:fixed;
+        top: 0;
+        left: 3%;
+        right: 3%;
+    border-bottom:solid;
+    font-size: 125%;
+    font-weight: bold;
+    padding-top:1%;
+    background-color: snow;
+}
+div.nav p{
+    text-align:center;
+    color:red;
+    margin:0;
+    padding:0;
 }
