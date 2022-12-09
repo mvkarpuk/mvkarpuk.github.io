@@ -1,41 +1,54 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
-    max-width: 720px;
     margin:auto;
+    background-color: snow;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
     color: red;
 }
-nav{
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: normal;
+    color: red;
+    padding-left: 3%;
+}
+ul.topnav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style-type: none;
-    padding: 4pt 0pt 4pt 0pt;
+    margin:0;
     text-decoration: none;
-    border-style: none none solid none;
-    border-width: 2pt;
-    position: fixed;
-    top: 0;
-    width: 720px;
-    background-color: white;
+    position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    background-color: papayawhip;
+    font-size: 150%;
+    padding-left:0%;
+    padding-right: 0%;
 }
-nav a{
-    text-decoration: none;
-    padding: 0pt 4pt 0pt 4pt;
-    font-size: 18pt;
+ul.topnav li{float:left;}
+ul.topnav li a{
+    display: block;
     color: red;
-}
-nav a:after{
+    text-align: center;
+    padding: 12px 12px;
     text-decoration: none;
-    color: black;
 }
-nav a:hover{
-    text-decoration: none;
-    color: black;
-}
-/* what a nice comment!
+ul.topnav li.full{display: block;}
+ul.topnav li.short{display: none;}
 
-    font-weight: normal;
-*/
+ul.topnav li a.active{
+    background-color: goldenrod;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+/*    ul.topnav li.right, ul.topnav li {float:none}*/
+    ul.topnav li.full{display: none;}
+    ul.topnav li.short{display: block;}
+}
