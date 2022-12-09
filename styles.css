@@ -16,15 +16,12 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 125%;
     font-weight: bold;
-
  /*   color: red;*/
 }
 ul.topnav{
     list-style-type: none;
     margin: 0;
     margin-bottom: 40px;
-    font-size: 125%;
-    font-weight: bold;
 }
 ul.topnav li{float:left;}
 ul.topnav li a{
@@ -33,6 +30,8 @@ ul.topnav li a{
     text-align: center;
     padding: 8px 8px 8px 8px;
     text-decoration: underline;
+    font-size: 125%;
+    font-weight: bold;
 }
 ul.topnav li.full{display: block;}
 ul.topnav li.short{display: none;}
@@ -44,10 +43,10 @@ ul.topnav li a.active{color: red;}
     body{
         font-size: 18px;
     }
-    div.nav{
+    div.nav p{
         font-size: 18px;
     }
-    ul.topnav{
+    ul.topnav a{
         font-size: 18px;
     }
 }
