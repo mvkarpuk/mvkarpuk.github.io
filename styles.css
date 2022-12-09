@@ -40,6 +40,9 @@ ul.topnav li a.active{color: red;}
 /*    ul.topnav li.right, ul.topnav li {float:none}*/
     ul.topnav li.full{display: none;}
     ul.topnav li.short{display: block;}
+    body{
+        font-size: 18px;
+    }
 }
 ol.listki li a{color:red;}
 ol.listki li a:visited{color: black;}
