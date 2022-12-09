@@ -23,8 +23,6 @@ ul.topnav{
     list-style-type: none;
     margin: 0;
     margin-bottom: 40px;
-    height: fit-content;
-/*    background-color: papayawhip;*/
 }
 ul.topnav li{float:left;}
 ul.topnav li a{
@@ -42,6 +40,9 @@ ul.topnav li a.active{color: red;}
     ul.topnav li.full{display: none;}
     ul.topnav li.short{display: block;}
     body{
+        font-size: 18px;
+    }
+    div.nav{
         font-size: 18px;
     }
 }
