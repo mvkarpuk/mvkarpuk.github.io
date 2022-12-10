@@ -22,26 +22,20 @@ h1{
 div.nav ul{
     list-style-type: none;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 3.5vw;
 }
 div.nav ul li{float:left;}
 div.nav ul li a{
     display: block;
     color: black;
     text-align: center;
-    padding: 8px 8px 8px 8px;
+    padding: 1.1vw 1.1vw 1.1vw 1.1vw;
     text-decoration: underline;
     font-size: 2.5vw;
     font-weight: bold;
 }
-div.nav ul li.full{display: block;}
-div.nav ul li.short{display: none;}
+div.nav ul li{display: block;}
 div.nav ul li a.active{color: red;}
-@media only screen and (max-width: 650px) {
-/*    ul.topnav li.right, ul.topnav li {float:none}*/
-    div.nav ul li.full{display: none;}
-    div.nav ul li.short{display: block;}
-}
 ol.listki li a{color:red;}
 ol.listki li a:visited{color: black;}
 div.nav{
@@ -51,7 +45,8 @@ div.nav{
         right: 3%;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom:solid;
-    padding-top:1%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     background-color: snow;
 }
 div.nav p{
