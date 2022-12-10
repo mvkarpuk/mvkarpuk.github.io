@@ -23,8 +23,12 @@ div.nav ul{
     list-style-type: none;
     margin: 0;
     margin-bottom: 3.5vw;
+    font-size: 2.5vw;
 }
-div.nav ul li{float:left;}
+div.nav ul li{
+    float:left;
+    font-size: 2.5vw;
+}
 div.nav ul li a{
     display: block;
     color: black;
@@ -48,6 +52,7 @@ div.nav{
     padding-top: 1vw;
     padding-bottom: 1vw;
     background-color: snow;
+    font-size: 2.5vw;
 }
 div.nav p{
     text-align:center;
