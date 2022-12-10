@@ -1,4 +1,10 @@
 
+html,body {
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
     margin:auto;
