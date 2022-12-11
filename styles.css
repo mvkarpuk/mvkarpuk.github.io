@@ -1,5 +1,5 @@
 
-html,body,div,div.nav {
+html {
 /*    text-size-adjust: none;*/
     -webkit-text-size-adjust: 200%;
     -moz-text-size-adjust: 150%;
@@ -7,63 +7,65 @@ html,body,div,div.nav {
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
-    margin:auto;
+    margin:0;
     background-color: white;
     padding-left: 3%;
     padding-right: 3%;
-/*    max-width: 900px;*/
-    min-width: 650px;
+    max-width: 1400px;
+    min-width: 700px;
     font-size: 1rem;
+/*    border-block: unset;*/
 }
+header,nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    font-size: 150%;
+    color: red;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;/*Сумяшчае з папярэднім блокам*/
+    height: max-content;
+    font-size: 125%;
+    padding: 0;
+    margin:0;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: solid;
+}
+nav ul{
+    display: flex;
+    height: max-content;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color: white;
+}
+nav ul li{float:left}
+nav ul li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 0.3rem;
+    background-color: white;
+}
+nav ul li a.active{color:red;}
+
+
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
-/*    color: red;*/
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 150%;
-    font-weight: bold;
- /*   color: red;*/
-}
-div.nav ul{
-    list-style-type: none;
-    margin: 0;
-    margin-bottom: 1.8rem;
-    font-size: 1.5rem;
-}
-div.nav ul li{
-    float:left;
-}
-div.nav ul li a{
-    display: block;
-    color: black;
-    text-align: center;
-    margin: 0.25rem 0.25rem 0.25rem 0.25rem;
-    text-decoration: none;
+    font-size: 125%;
     font-weight: bold;
 }
-div.nav ul li{display: block;}
-div.nav ul li a.active{color: red;}
 ol.listki li a{color:red;}
 ol.listki li a:visited{color: black;}
-div.nav{
-    position:fixed;
-        top: 0;
-        left: 3%;
-        right: 3%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom:solid;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: snow;
-}
-div.nav p{
-    text-align:left;
-    color:red;
-    margin:0;
-    padding:0;
-    padding-left:3%;
-    font-size: 2rem;
-    font-weight: bold;
-}
