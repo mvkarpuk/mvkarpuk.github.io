@@ -12,7 +12,8 @@ body{
     padding-left: 3%;
     padding-right: 3%;
 /*    max-width: 900px;*/
-    font-size: 2vw;
+    min-width: 650px;
+    font-size: 1rem;
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,27 +22,27 @@ h2{
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 125%;
+    font-size: 150%;
     font-weight: bold;
  /*   color: red;*/
 }
 div.nav ul{
     list-style-type: none;
     margin: 0;
-    margin-bottom: 3.5vw;
-    font-size: 2.5vw;
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
 }
 div.nav ul li{
     float:left;
-    font-size: 2.5vw;
+    font-size: 1.5rem;
 }
 div.nav ul li a{
     display: block;
     color: black;
     text-align: center;
-    padding: 1.1vw 1.1vw 1.1vw 1.1vw;
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
     text-decoration: none;
-    font-size: 2.5vw;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 div.nav ul li{display: block;}
@@ -55,16 +56,17 @@ div.nav{
         right: 3%;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom:solid;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: snow;
-    font-size: 2.5vw;
+    font-size: 1.5rem;
 }
 div.nav p{
-    text-align:center;
+    text-align:left;
     color:red;
     margin:0;
     padding:0;
-    font-size: 3vw;
+    padding-left:3%;
+    font-size: 2rem;
     font-weight: bold;
 }
