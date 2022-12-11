@@ -22,11 +22,11 @@ div.head{
     font-weight: bold;
     color:red;
 }
-header,nav {
+div.menu{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-nav{
+div.menu{
     display:flex;/*Сумяшчае з папярэднім блокам*/
     height: max-content;
     font-size: 1.25rem;
@@ -36,7 +36,7 @@ nav{
     background-color: white;
     border-bottom: solid;
 }
-nav ul{
+div.menu ul{
     display: flex;
     height: max-content;
     margin:0;
@@ -44,15 +44,15 @@ nav ul{
     list-style-type:none;
     background-color: white;
 }
-nav ul li{float:left}
-nav ul li a{
+div.menu ul li{float:left}
+div.menu ul li a{
     display:inline-block;
     color:black;
     text-align: center;
     padding: 0.3rem;
     background-color: white;
 }
-nav ul li a.active{color:red;}
+div.menu ul li a.active{color:red;}
 
 
 h2{
