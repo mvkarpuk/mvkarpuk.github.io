@@ -1,9 +1,9 @@
 
 html,body {
-    text-size-adjust: none;
-    -webkit-text-size-adjust: 300%;
-    -moz-text-size-adjust: 300%;
-    -ms-text-size-adjust: 300%;
+/*    text-size-adjust: none;*/
+    -webkit-text-size-adjust: 200%;
+    -moz-text-size-adjust: 200%;
+    -ms-text-size-adjust: 200%;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
@@ -50,10 +50,10 @@ div.nav ul li a.active{color: red;}
 ol.listki li a{color:red;}
 ol.listki li a:visited{color: black;}
 div.nav{
-/*    position:fixed;
+    position:fixed;
         top: 0;
         left: 3%;
-        right: 3%;*/
+        right: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom:solid;
     padding-top: 0.5rem;
