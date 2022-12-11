@@ -16,20 +16,15 @@ body{
     font-size: 1rem;
 /*    border-block: unset;*/
 }
+div.head{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:red;
+}
 header,nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-}
-header{
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
-    color: red;
-    width: 100%;
-    background-color: yellow;
-    margin: 0;
-    padding: 0;
-    text-align:left;
 }
 nav{
     display:flex;/*Сумяшчае з папярэднім блокам*/
