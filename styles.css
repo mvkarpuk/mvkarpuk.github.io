@@ -26,7 +26,7 @@ header{
     font-size: 1.5rem;
     color: red;
     width: 100%;
-    background-color: yellow;
+    background-color: tomato;
     margin: 0;
     padding: 0;
 }
@@ -56,9 +56,10 @@ nav ul li a{
     padding: 0.3rem;
     background-color: white;
     -moz-text-size-adjust: 200%;
-    -webkit-text-size-adjust: 300%;
+    -webkit-text-size-adjust: 400%;
     box-sizing: content-box;
     -webkit-box-sizing: content-box;
+    width: fit-content;
 }
 nav ul li a.active{color:red;}
 
