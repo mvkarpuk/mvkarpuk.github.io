@@ -26,10 +26,9 @@ header{
     font-size: 1.5rem;
     color: red;
     width: 100%;
-    background-color: aquamarine;
+    background-color: green;
     margin: 0;
     padding: 0;
-    -webkit-box-flex-grow: 2;
 }
 nav{
     display:flex;/*Сумяшчае з папярэднім блокам*/
@@ -56,10 +55,7 @@ nav ul li a{
     text-align: center;
     padding: 0.3rem;
     background-color: white;
-    -moz-text-size-adjust: 500%;
-    -webkit-text-size-adjust: 400%;
     box-sizing: content-box;
-    -webkit-box-sizing: content-box;
     width: fit-content;
 }
 nav ul li a.active{color:red;}
