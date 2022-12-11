@@ -1,7 +1,7 @@
 
 html,body,header,nav {
 /*    text-size-adjust: none;*/
-    -webkit-text-size-adjust: 200%;
+    -webkit-text-size-adjust: 300%;
     -moz-text-size-adjust: 150%;
     -ms-text-size-adjust: 150%;
 }
@@ -55,6 +55,7 @@ nav ul li a{
     padding: 0.3rem;
     background-color: white;
     -moz-text-size-adjust: 200%;
+    -webkit-text-size-adjust: 300%;
 }
 nav ul li a.active{color:red;}
 
