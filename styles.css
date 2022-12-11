@@ -1,14 +1,14 @@
 
 html,body {
     text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: 150%;
-    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: 300%;
+    -moz-text-size-adjust: 300%;
+    -ms-text-size-adjust: 300%;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
     margin:auto;
-    background-color: snow;
+    background-color: white;
     padding-left: 3%;
     padding-right: 3%;
 /*    max-width: 900px;*/
