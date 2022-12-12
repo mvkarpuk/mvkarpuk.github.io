@@ -10,8 +10,8 @@ body{
     background-color: white;
     padding-left: 0.5%;
     padding-right: 0.5%;
-    max-width: 720px;
-    min-width: 600px;
+    max-width: 900px;
+    min-width: 510px;
     font-size: 1rem;
 /*    border-block: unset;*/
 }
@@ -33,7 +33,7 @@ div.topmenu a{
     display: inline box;
     font-weight: bold;
     font-size: 1.25rem;
-    padding-inline: 1rem;
+    padding-inline: 0.5rem;
     color: black;
 }
 div.topmenu a.active{
