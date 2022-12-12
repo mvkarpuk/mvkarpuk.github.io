@@ -21,6 +21,24 @@ div.head{
     font-weight: bold;
     color:red;
 }
+div.topmenu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    padding-bottom: 0.2rem;
+    margin:0;
+    margin-bottom: 0;
+    border-bottom: solid;
+}
+div.topmenu a{
+    display: inline box;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-inline: 1rem;
+    color: black;
+}
+div.topmenu a.active{
+    color:red;
+}
 div.menu{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
