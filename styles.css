@@ -1,9 +1,9 @@
-/*html,body,header,nav {
+html,body,header,nav {
     text-size-adjust: none;
     -webkit-text-size-adjust: 150%;
     -moz-text-size-adjust: 125%;
     -ms-text-size-adjust: 125%;
-}*/
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Ставім стандартныя шрыфты*/
     margin:0 auto;
@@ -30,7 +30,6 @@ div.menu{
     padding: 0;
     margin:0;
     margin-bottom: 0;
-    background-color: violet;
     border-bottom: solid;
 }
 div.menu ul{
@@ -48,8 +47,8 @@ div.menu ul li a{
     color:black;
     text-align: center;
     padding: 0.3rem;
-    background-color: yellow;
     width: 7rem;
+    font-size: 1.25rem;
 }
 div.menu ul li a.active{color:red;}
 
