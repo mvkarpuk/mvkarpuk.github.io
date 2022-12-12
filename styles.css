@@ -1,6 +1,6 @@
 html,body,header,nav {
 /*    text-size-adjust: none;*/
-    -webkit-text-size-adjust: 210%;
+    -webkit-text-size-adjust: 2220%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 125%;
 }
@@ -20,7 +20,7 @@ div.head{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color:red;
-    text-align: center;
+    text-align: left;
     padding-top: 1%;
     padding-bottom: 1%;
 }
