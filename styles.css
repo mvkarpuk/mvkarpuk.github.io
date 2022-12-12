@@ -1,7 +1,7 @@
 html,body,header,nav {
     text-size-adjust: none;
-    -webkit-text-size-adjust: 150%;
-    -moz-text-size-adjust: 125%;
+    -webkit-text-size-adjust: 175%;
+/*    -moz-text-size-adjust: 125%;*/
     -ms-text-size-adjust: 125%;
 }
 body{
